@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-zinc-950">
       
-      <PipelineProvider apiBase="http://127.0.0.1:8000">
+      <PipelineProvider apiBase="https://sdlc-ai-2kpe.onrender.com/">
         
         <LandingPage />
       </PipelineProvider>

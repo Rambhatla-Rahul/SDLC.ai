@@ -1347,5 +1347,4 @@ async def list_pipelines():
 
 if __name__ == "__main__":
     import uvicorn
-    print(os.getenv("GEMINI_API_KEY"))
-    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=False)
+    uvicorn.run("app:app", host="0.0.0.0", port=4000, reload=False)

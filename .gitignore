@@ -107,6 +107,16 @@ dist
 # Docusaurus cache and generated files
 .docusaurus
 
+
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
 # Serverless directories
 .serverless/
 

@@ -8,7 +8,7 @@ import { useRef, useState } from "react";
 export default function ChatInput({ onSend }) {
   const [value, setValue] = useState("");
   const textareaRef = useRef(null);
-
+  const {reset} = usePipeline();
   const MAX_LINES = 5;
   const LINE_HEIGHT = 24;
 
